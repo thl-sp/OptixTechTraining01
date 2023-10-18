@@ -581,7 +581,3 @@ Children:
   Id: g=b78383b1ec620a1373605050de1a0fbd
   Supertype: Screen
   ReferenceType: HasComponent
-- Name: Screen4
-  Id: g=2c8ea7039d740bc69276ede859f9d743
-  Supertype: Screen
-  ReferenceType: HasComponent
