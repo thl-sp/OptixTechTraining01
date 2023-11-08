@@ -9,7 +9,7 @@ Children:
     DataType: String
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: ["en-US"]
+    Value: ["en-US","th-TH"]
   - Name: LocaleFallbackList
     Type: PropertyType
     DataType: String
@@ -54,3 +54,12 @@ Children:
 - File: System/System.yaml
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
+- Name: RecipeSchema1
+  Type: Alias
+  DataType: NodeId
+  Value: {"IdType":2,"Id":"c43e6bb9a23e8447f80473314f7ddbd3","Namespace":7}
+  Children:
+  - Name: Kind
+    Type: PropertyType
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"24f07f0c224182566a9b2b72c4ab043c","Namespace":7}

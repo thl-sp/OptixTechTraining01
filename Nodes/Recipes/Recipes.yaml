@@ -1,2 +1,92 @@
 Name: Recipes
 Type: RecipesCategoryFolder
+Children:
+- Name: RecipeSchema1
+  Id: g=6009ccec52d38e43bead1a954d5da4ed
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: Variable1
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Variable2
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Variable3
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+  - Class: Reference
+    Target: ns=28;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=28;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=28;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=28;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=28;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=28;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=28;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=28;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=28;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=28;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=28;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=28;i=60
+    Direction: Forward
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"d2f93f66e396b97f7420c4144a67b99a","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":10}
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"ad14eeaf2033756c01c2ad650770512d","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: EditModel
+    Id: g=c43e6bb9a23e8447f80473314f7ddbd3
+    Type: BaseObjectType
+    Children:
+    - Name: Variable1
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Variable2
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: Variable3
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""

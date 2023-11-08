@@ -1,3 +1,167 @@
 Name: Alarms
 Id: g=3293e7cd8de0bb06cc725e017a984470
 Type: AlarmsCategoryFolder
+Children:
+- Name: ExclusiveLevelAlarm1
+  Id: g=bfbb11dc7eac1e0349638aab71137dbf
+  Type: ExclusiveLevelAlarmController
+  Children:
+  - Name: InputValue
+    Id: g=f39fbd6309a5dbe34d18d5aed909dfea
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=1e423b157c7d82ecbb08ef36c1510765
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/DataLoggor1"
+      Children:
+      - Name: Mode
+        Id: g=de826d91d7316a61f428bafdd2c36f9c
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=c47b4a145c5f5cca162983fb1b0f04c1
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: HighHighLimit
+    Id: g=11ce3f1f2cef0629b9de31365fb3db72
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 90.0
+  - Name: HighLimit
+    Id: g=e68bc9b9c40e26a3f620019036404b45
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 80.0
+  - Name: Message
+    Id: g=54afac5bfca4c7fcaccd995fa6662b93
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Data Logger 1 Alarm"}
+- Name: ExclusiveLevelAlarm2
+  Id: g=5423a203c187c1677e3830c7ae3871ba
+  Type: ExclusiveLevelAlarmController
+  Children:
+  - Name: InputValue
+    Id: g=e3a36d89a637b22bf535873b64f8ec1a
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=09ca7339878936e8630c8645f85217df
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/DataLoggor2"
+      Children:
+      - Name: Mode
+        Id: g=194df0fd8968895ea3e56368cfcb3428
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=625f63ed17af6b4a53fbb8b08a204a71
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: LowLowLimit
+    Id: g=941975d210f00e65342461e8308e70b6
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 10.0
+  - Name: LowLimit
+    Id: g=842a67b55631fd2eb3f31e6cf2716b9d
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 20.0
+  - Name: Severity
+    Id: g=88843e21244610f8bf2d77f2bb94ea2b
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 2
+  - Name: Message
+    Id: g=dcc1e12194b688056a053dfa744a234d
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Data Logger 2 Alarm"}
+- Name: ExclusiveLevelAlarm3
+  Id: g=2f81d4bfbb6c258ec6d18c87d0338f4f
+  Type: ExclusiveLevelAlarmController
+  Children:
+  - Name: InputValue
+    Id: g=32d89ed7f3b948f24f9a57205a0a42c0
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=88e627b027f08700d7573b8c4f9279a6
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/DataLoggor3"
+      Children:
+      - Name: Mode
+        Id: g=8cc67c61353a23dd9aead3b48a0622ab
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=3b5095c419addb589b94f7990e3cd30a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: HighLimit
+    Id: g=c41cfc1b1da5dc0e1fc006010d3aed52
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 80.0
+  - Name: LowLimit
+    Id: g=732f1550b138909bd6169c3ecd3ca3aa
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 20.0
+  - Name: Severity
+    Id: g=73a033fd5b0e9a382c5ff9ecf4b5e31a
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+  - Name: Message
+    Id: g=3c5779c8f534034a066c049cab8606f8
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Data Logger 3 Alarm"}
